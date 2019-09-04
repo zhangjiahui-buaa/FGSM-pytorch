@@ -47,6 +47,12 @@ for image,label in test_loader:
         loss.backward()
 
         plt.figure()
+        pert = epson *image.grad.sign()
+        plt.imshow(pert.reshape(28,28).detach().numpy(),cmap = 'gray')
+        plt.title('The perturbation')
+        plt.show()
+
+        plt.figure()
         new =  image + epson *image.grad.sign()
         plt.imshow(new.reshape(28,28).detach().numpy(),cmap = 'gray')
         new_outputs = model(new.reshape(-1, 784))
