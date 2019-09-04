@@ -12,5 +12,6 @@ This is an implementation of Explaining and Harnessing Adversarial Sample in the
 ![avatar](/mnist_/result/before_attack.PNG)
     
 ![avatar](/mnist_/result/after_attack.PNG)
-    
+
+![avatar](/mnist_/result/perturbation.PNG)
 
