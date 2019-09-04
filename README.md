@@ -5,7 +5,7 @@ This is an implementation of Explaining and Harnessing Adversarial Sample in the
 
     MNIST.PY train a linear model 
   
-    generate.py generates adversarial sample
+    generate.py generates adversarial sample(more details are in the file)
 
 ## EXAMPLE
 
